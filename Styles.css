@@ -1,0 +1,140 @@
+.body {
+    margin: 0px;
+}
+
+.Links-Wrapper {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 10px; 
+    margin-right: 10px; 
+}
+
+.Links-Wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.body-text {
+    width:100%;
+    background-color: #393D45;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    box-shadow: inset 18px 22px 132px -23px rgba(0,0,0,0.86);
+}
+
+.body-text > .left {
+    width:40%;
+    color: white;
+    font-size: 2em;
+
+}
+
+.nav-link-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    column-gap: 10px;
+    color: white;
+    justify-self: stretch;
+    margin: -10px;
+}
+
+.nav-link-one > .idk {
+    color:#CEF126;
+    font-size: .8em;
+}
+
+.button-nav {
+    display:flex;
+    justify-content: space-around;
+}
+
+.btn-nav {
+    background-color: gray;
+    height: 35px;
+    color: white;
+    font-size: 1em;
+    outline: solid black;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.3s;
+ }
+
+ .icon {
+     padding: 12px;
+ }
+
+.btn-nav2 {
+    background-color: gray;
+    height: 35px;
+    color: white;
+    font-size: 1em;
+    outline: solid black;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-nav3 {
+    background-color: gray;
+    height: 35px;
+    color: white;
+    font-size: 1em;
+    outline: solid black;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+.btn-nav i {
+    color:#26F160;
+}
+
+.end-wrapper {
+    width:"100%";
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color:#393D45;
+
+}
+
+.myButton {
+	background-color:#23BC53;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:16px 16px;
+	text-decoration:none;
+}
+
+.aButton {
+	background-color: black;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:16px 16px;
+	text-decoration:none;
+}
+
